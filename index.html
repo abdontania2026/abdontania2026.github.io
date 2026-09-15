@@ -326,6 +326,9 @@
     .card-content.revealed > *:nth-child(10) { opacity: 1; transform: translateY(0); transition-delay: 1.45s; }
     .card-content.revealed > *:nth-child(11) { opacity: 1; transform: translateY(0); transition-delay: 1.6s; }
     .card-content.revealed > *:nth-child(12) { opacity: 1; transform: translateY(0); transition-delay: 1.75s; }
+    .card-content.revealed > *:nth-child(13) { opacity: 1; transform: translateY(0); transition-delay: 1.9s; }
+    .card-content.revealed > *:nth-child(14) { opacity: 1; transform: translateY(0); transition-delay: 2.05s; }
+    .card-content.revealed > *:nth-child(15) { opacity: 1; transform: translateY(0); transition-delay: 2.2s; }
 
     .card-icon {
       font-size: 2.5rem;
@@ -621,6 +624,19 @@
       font-size: 0.75rem;
       color: var(--color-accent-deep);
       font-weight: 600;
+    }
+
+    .verse-image-section {
+      text-align: center;
+      margin: var(--spacing-sm) 0;
+    }
+
+    .verse-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: var(--radius-md);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      filter: brightness(0.6);
     }
 
     /* ===========================
@@ -1137,6 +1153,11 @@
             <p class="verse-ref">— Eclesiastes 4:12</p>
           </div>
 
+          <!-- IMAGEN VERSÍCULO -->
+          <div class="verse-image-section">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa8JSQ4F1tcNuF-qnYfUdB-qyz8rc9ofHtLecju8hTNg&s=10" alt="Imagen decorativa" class="verse-image" />
+          </div>
+
           <div class="card-divider"><span class="card-divider-icon">✦</span></div>
 
           <!-- PADRES -->
@@ -1251,7 +1272,7 @@
           </div>
 
           <p class="card-footer">
-            <span class="card-footer-heart">♥</span> <span class="card-footer-heart">♥</span>
+            <span class="card-footer-heart">♥</span> ... <span class="card-footer-heart">♥</span>
           </p>
 
         </div>
